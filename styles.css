@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+#calculator {
+    background-color: slategray;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.screen {
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;  
+}
+
+.middle {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
