@@ -30,4 +30,8 @@ body{
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    display: inline-grid;
+    grid-template-columns: repeat(4,2fr)
+    
 }
+
