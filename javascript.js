@@ -6,14 +6,11 @@ const equalsButton = document.getElementById("eqbtn")
 const clearButton = document.getElementById("clrbtn")
 
 
-
-console.log(numberButtons);
-console.log(operatorButtons);
-console.log(equalsButton);
-console.log(clearButton);
+//add value to the keys
 
 
 
+// math functions
 let add = (a,b) => a + b;
 let subtract = (a,b) => a - b;
 let multiply = (a,b) => a * b;
@@ -31,11 +28,14 @@ function operate (operator, a, b ) {
         case "x":
             return multiply(a,b);
         case "/": 
-            return divide(a,b);
+            if (b === 0) return null
+            else return divide(a,b);
 
+        default:
+             return null;
     }
 
-}
+}//works and accounts for dividing by 0
 
 console.log(operate("x" , 1 , 2));
 
