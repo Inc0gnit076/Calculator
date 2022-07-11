@@ -49,7 +49,8 @@ function operate () {
             currentDisplayNumber.textContent = multiply(a,b);
             break
         case "/": 
-            if (b === 0) return null;
+            if (b === 0){ currentDisplayNumber.textContent = "ERROR";
+            break;}
             else currentDisplayNumber.textContent = divide(a,b);
             break;
 
