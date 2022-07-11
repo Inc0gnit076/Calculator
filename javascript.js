@@ -24,6 +24,14 @@ let multiply = (a,b) => a * b;
 let divide = (a,b) => a / b;
 
 equalsButton.addEventListener("click", operate);
+clearButton.addEventListener("click", clear);
+
+function clear () {
+    previousNum = "";
+    currentNum = "";
+    operator = "";
+    currentDisplayNumber.textContent = "0";
+}
 
 
 function operate () { 
