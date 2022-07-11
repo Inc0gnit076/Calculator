@@ -1,11 +1,4 @@
 To do list for calculator
 
-create "default" values for the first value, operator, second value, and total
-
-create values for the number and operator keys using the typed value in html
-
-
-create a display value that you are typing that changes to total after equals is hit
-
 create a clear function for the clear keys
 
