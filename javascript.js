@@ -1,4 +1,6 @@
 
+
+
 //gets all the buttons named
 const numberButtons = document.querySelectorAll("[data-number]");
 const operatorButtons = document.querySelectorAll("[data-operator]");
@@ -6,7 +8,7 @@ const equalsButton = document.getElementById("eqbtn")
 const clearButton = document.getElementById("clrbtn")
 
 
-//add value to the keys
+//add value to the keys using typed number in html
 
 
 

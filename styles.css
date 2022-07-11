@@ -18,6 +18,12 @@ body{
 
 .screen {
     background-color: black;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 300px;
     margin-top: 25px;
