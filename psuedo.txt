@@ -1,4 +1,6 @@
 To do list for calculator
 
-create a clear function for the clear keys
+make it so the user can string together calculations and when the second operator is pressed it will display the solution
+
+add the previous display value above the current display value
 
